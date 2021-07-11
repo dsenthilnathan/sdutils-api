@@ -4,7 +4,7 @@ Utility API's for the common functionalities
 # API's available
    1.) An API to give the Accounting/Retail Calendar (445 Calendar) for the given Year & Month.
    
-Supported Endpoints
+<u> <b> Supported Endpoints  </b> </u>
 
 /sdutils/api/calendar/accounting/year/{year}
 
@@ -14,7 +14,8 @@ Supported Endpoints
  - {month} : Optional Integer (Range from 1 to 12 - Configurable)
  
 
-Features
+<u> <b> Features </b> </u>
+
    1. Supports both XML & JSON response (based on the Accept header)
    2. EhCache used in the backend to cache the response (Max time to live is 60 seconds, but configurable)
    3. Accepts only whole numbers (Year -  range of 1 to 3000 , Month - range of 1 to 12)
