@@ -13,7 +13,7 @@ import com.sdutils.service.SDUtilsService;
 import com.sdutils.vo.AccountingYear;
 
 @SpringBootTest
-public class SUtilServiceTest {
+public class SDUtilServiceTest {
 	
 	
 	

@@ -1,13 +1,13 @@
-# sutils-api
+# sdutils-api
 Utility API's for the common functionalities
 
 # API's available
-   1.) An API which calculates and returns all the prime numbers up to and including a number provided
+   1.) An API to give the Accounting/Retail Calendar (445 Calendar) for the given Year & Month.
 
 Features
    1. Supports both XML & JSON response (based on the Accept header)
    2. EhCache used in the backend to cache the response (Max time to live is 60 seconds, but configurable)
-   3. Accepts only whole numbers within the range of 2 to 100 (configurable)
+   3. Accepts only whole numbers (Year -  range of 1 to 3000 , Month - range of 1 to 12)
    4. Comes with Unit & Integration test cases
 
 # Technologies Used
@@ -25,14 +25,15 @@ https://sutils-api.azurewebsites.net
 
 # Future Scope
 
-1. Support for Swagger Documentation
-2. Having OAUTH to authorize/authenticate the callers
-3. Having DB support for auditing 
+1. Support for passing flavour of the calendar quarter 445, 454 or 544 as an input
+2. Support for Swagger Documentation
+3. Having OAUTH to authorize/authenticate the callers
+4. Having DB support for auditing 
 
 
 # About the Author
 
-Senthilnathan Durairaj is a passionate programmer currently working as a Senior Lead/Technical Architect.
+Senthilnathan Durairaj is a passionate programmer currently working as a Solutions/Technical Architect.
 
 
 

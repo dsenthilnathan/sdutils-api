@@ -30,7 +30,7 @@ import org.springframework.test.web.servlet.MvcResult;
 
 @AutoConfigureMockMvc
 
-public class SUtilRequestHandlerTest {
+public class SDUtilRequestHandlerTest {
 	
 	 // bind the above RANDOM_PORT
     @LocalServerPort
@@ -102,10 +102,7 @@ public class SUtilRequestHandlerTest {
    	
    mockMvc.perform(get("http://localhost:" + port + "/sdutils/api/calendar/accounting/year//month/1"))
  				.andDo(print())
- 				.andExpect(status().isNotFound())
- 				.andExpect(jsonPath("$.error", equalTo("Not Found")))
- 				.andExpect(jsonPath("$.message", equalTo("No message available")));
-		
+ 				.andExpect(status().isNotFound());
    	
    }
    
