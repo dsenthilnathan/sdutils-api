@@ -14,7 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sdutils.service.SDUtilsService;
 import com.sdutils.vo.AccountingYear;
 
-
+/**
+ * 
+ * @author Senthilnathan
+ * 
+ * This is the REST Controller / Request Handler for the SDUtils API Suite
+ * 
+ */
 
 @RestController
 @Validated
