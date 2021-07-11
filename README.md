@@ -3,6 +3,16 @@ Utility API's for the common functionalities
 
 # API's available
    1.) An API to give the Accounting/Retail Calendar (445 Calendar) for the given Year & Month.
+   
+Supported Endpoints
+
+/sdutils/api/calendar/accounting/year/{year}
+
+/sdutils/api/calendar/accounting/year/{year}/month/{month}
+
+ - {year} : Mandatory Integer (Range from 1 to 3000 - Configurable)
+ - {month} : Optional Integer (Range from 1 to 12 - Configurable)
+ 
 
 Features
    1. Supports both XML & JSON response (based on the Accept header)
@@ -20,7 +30,7 @@ Tomcat
 
 This Utility API has been hosted in Azure Public Cloud and can be accessed by the below URL
 
-https://sutils-api.azurewebsites.net
+https://sdutils-api.azurewebsites.net
 
 
 # Future Scope
